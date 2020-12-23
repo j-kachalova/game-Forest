@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="shadow.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="foot1.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="foot2.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="pants.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="collar.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="hand2.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="hand1.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="head.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="eye.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="mouth.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="hat.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="character.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="eye2.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="10" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="3" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="5" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="6" key="0" z_index="7"/>
+                    <object_ref id="8" timeline="11" key="0" z_index="8"/>
+                    <object_ref id="9" timeline="7" key="0" z_index="9"/>
+                    <object_ref id="10" timeline="8" key="0" z_index="10"/>
+                    <object_ref id="11" timeline="9" key="0" z_index="11"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="112.225774" y="-164.068931"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="foot2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="67.070929" y="-180.672328"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hand2">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="134.942395" y="-228.733194"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pants">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="134.418803" y="266.550117"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="collar">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="134.638641" y="249.4322"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="hand1">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="93.923854" y="-233.32634"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="head">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="116.415205" y="-245.953216"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="181.900585" y="-247.356725"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="mouth">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="170.85213" y="-241.22807"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="hat">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="133.993317" y="241.215539"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="foot2_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="112.882232" y="-179.59191"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="eye2">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="-781.618879" y="-247.551977"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
