@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4788013813990348}
   - component: {fileID: 212166986984008670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform center grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4564296887199388}
   - component: {fileID: 212319016672115812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4982722623832594}
   - component: {fileID: 212739620109328900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'left corner '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4839646858365274}
   - component: {fileID: 61592220031026712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PLatform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.56221485, y: -0.95703435}
+  m_Offset: {x: 0.56221485, y: -1.1194742}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -310,7 +310,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.359903, y: 3.575173}
+  m_Size: {x: 11.359903, y: 3.2502933}
   m_EdgeRadius: 0
 --- !u!1 &1541348135139138
 GameObject:
@@ -322,7 +322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4059714580750396}
   - component: {fileID: 212332461957400086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: grass1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4465633401525092}
   - component: {fileID: 212488970631282894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'right corner  '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4834280318145106}
   - component: {fileID: 212133428921767796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big plant 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4275959278033638}
   - component: {fileID: 212113716066344686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform right grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4752260937820622}
   - component: {fileID: 212799900120114502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform left grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4056268593602370}
   - component: {fileID: 212993380700510574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small plant 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

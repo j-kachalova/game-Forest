@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class CharacterControllerScript : MonoBehaviour
 {
+    [SerializeField] CharText charText = null;
     //переменная для установки макс. скорости персонажа
     public float maxSpeed = 10f;
     //переменная для определения направления персонажа вправо/влево
@@ -20,6 +22,7 @@ public class CharacterControllerScript : MonoBehaviour
     private float groundRadius = 0.2f;
     //ссылка на слой, представляющий землю
     public LayerMask whatIsGround;
+    public int score = 0;
 
     /// <summary>
     /// Начальная инициализация
@@ -93,5 +96,17 @@ public class CharacterControllerScript : MonoBehaviour
         //задаем новый размер персонажа, равный старому, но зеркально отраженный
         transform.localScale = theScale;
     }
-
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene("Level");
+        else if (col.gameObject.CompareTag("Acorn")) {
+            score++;
+            Destroy(col.gameObject);
+            charText.getText();
+        }
+    }
+    /*void OnGUI()
+    {
+        GUI.Box(new Rect(0, 0, 100, 100), "Acorns: " + score + "/10");
+    }*/
 }
