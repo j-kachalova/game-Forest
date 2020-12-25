@@ -98,15 +98,11 @@ public class CharacterControllerScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene("Level");
+        if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene(2);
         else if (col.gameObject.CompareTag("Acorn")) {
             score++;
             Destroy(col.gameObject);
             charText.getText();
         }
     }
-    /*void OnGUI()
-    {
-        GUI.Box(new Rect(0, 0, 100, 100), "Acorns: " + score + "/10");
-    }*/
 }

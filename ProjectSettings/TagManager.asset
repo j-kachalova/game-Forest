@@ -6,6 +6,8 @@ TagManager:
   tags:
   - dieCollider
   - Acorn
+  - button_pause
+  - button_play
   layers:
   - Default
   - TransparentFX

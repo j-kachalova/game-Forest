@@ -20,7 +20,7 @@ public class CharText : MonoBehaviour
     }
     public void getText()
     {
-        myText.text = "Acorns " + characterController.score + "/10";
+        myText.text = "ЖЁЛУДИ " + characterController.score + "/10";
         //if (characterController.score == 10) ;
     }
 }
