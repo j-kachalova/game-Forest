@@ -2245,7 +2245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5397426362955675788, guid: ecc91850df806234bbf286bbaace61ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.87
+      value: -33.11
       objectReference: {fileID: 0}
     - target: {fileID: 5397426362955675788, guid: ecc91850df806234bbf286bbaace61ff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   panel: {fileID: 1555110766}
   imgWin: {fileID: 1997663134}
   character: {fileID: 1820214250}
-  scene: 0
+  scene: 1
 --- !u!1001 &762439645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4478,7 +4478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290421229}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.889999, y: 0.2119661, z: 0.3473659}
+  m_LocalPosition: {x: 15.88, y: 0.217, z: 0.3473659}
   m_LocalScale: {x: -0.3514124, y: 0.24028195, z: 0.35141236}
   m_Children: []
   m_Father: {fileID: 315331830}
@@ -6839,7 +6839,7 @@ MonoBehaviour:
   panel: {fileID: 1555110766}
   imgWin: {fileID: 1997663134}
   character: {fileID: 1820214250}
-  scene: 0
+  scene: 1
 --- !u!1 &2026568083
 GameObject:
   m_ObjectHideFlags: 0

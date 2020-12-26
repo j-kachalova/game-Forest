@@ -86,6 +86,7 @@ public class CharacterControllerScript : MonoBehaviour
             //прикладываем силу вверх, чтобы персонаж подпрыгнул
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 600));
         }
+
     }
 
     /// <summary>
@@ -104,7 +105,7 @@ public class CharacterControllerScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene(2);
+        if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene(1);
         else if (col.gameObject.CompareTag("Acorn")) {
             score++;
             OnLoad();

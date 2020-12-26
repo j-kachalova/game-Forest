@@ -35,6 +35,10 @@ public class MyButton : MonoBehaviour
             character.SetActive(true);
             panel.SetActive(false);
         }
+        else if (gameObject.CompareTag("exit"))
+        {
+            Application.Quit();
+        }
         else SceneManager.LoadScene(scene);
     }
 }

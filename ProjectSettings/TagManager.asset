@@ -8,6 +8,7 @@ TagManager:
   - Acorn
   - button_pause
   - button_play
+  - exit
   layers:
   - Default
   - TransparentFX
