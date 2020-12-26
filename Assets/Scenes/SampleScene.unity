@@ -352,7 +352,7 @@ MonoBehaviour:
   panel: {fileID: 0}
   imgWin: {fileID: 0}
   character: {fileID: 0}
-  scene: 1
+  scene: 2
 --- !u!1 &268743275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   panel: {fileID: 0}
   imgWin: {fileID: 0}
   character: {fileID: 0}
-  scene: 2
+  scene: 1
 --- !u!1 &2080464190
 GameObject:
   m_ObjectHideFlags: 0
