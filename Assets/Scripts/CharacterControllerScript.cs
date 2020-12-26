@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.IO;
 
 
 public class CharacterControllerScript : MonoBehaviour
 {
+    [SerializeField] MyButton win = null;
+    public int scoreRes=0;
+    public string path = ""; // путь к файлу
+    public string nameFile = "test.txt"; // название файла 
     [SerializeField] CharText charText = null;
     //переменная для установки макс. скорости персонажа
     public float maxSpeed = 10f;
@@ -101,8 +107,29 @@ public class CharacterControllerScript : MonoBehaviour
         if (col.gameObject.CompareTag("dieCollider")) SceneManager.LoadScene(2);
         else if (col.gameObject.CompareTag("Acorn")) {
             score++;
+            OnLoad();
+            if(score>scoreRes)OnSave();
             Destroy(col.gameObject);
             charText.getText();
+            if(score==10)
+            {
+                win.character.SetActive(false);
+                win.panel.SetActive(true);
+                win.button_play.SetActive(false);
+                win.imgWin.SetActive(true);
+            }
         }
+    }
+    public void OnSave()
+    { 
+        StreamWriter sw = new StreamWriter(path+ "/" + nameFile);
+        sw.WriteLine(score);
+        sw.Close();
+    }
+    public void OnLoad() // функция чтения
+    {
+        StreamReader sr = new StreamReader(path + "/" + nameFile);
+        scoreRes = int.Parse(sr.ReadLine());
+        sr.Close();
     }
 }

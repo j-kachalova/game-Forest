@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1632233643423970604}
   - component: {fileID: 1632233643423970605}
   - component: {fileID: 1632233643423970607}
-  - component: {fileID: 1632233643423970606}
   m_Layer: 0
   m_Name: dieCollider
   m_TagString: dieCollider
@@ -80,15 +79,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1632233643423970606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632233643423970600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0b9f29e935ae8243a8d4513a1bb2f95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

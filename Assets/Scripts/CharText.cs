@@ -21,6 +21,6 @@ public class CharText : MonoBehaviour
     public void getText()
     {
         myText.text = "ЖЁЛУДИ " + characterController.score + "/10";
-        //if (characterController.score == 10) ;
+        
     }
 }
